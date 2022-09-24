@@ -1,38 +1,79 @@
-.App {
+.card h1{
+  color: #32a3b1;
+  margin-left:3em;
+  font-size: 1.4em;
+}
+
+.description {
+  position: relative;
+  margin-top: 20px;
   text-align: center;
+  margin-left:1.5em;
+}
+.description h2{
+  color: #32a3b1;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 520px;
+  margin: 20px;
+  padding: 40px 30px;
+  background: #ebf5fc;
+  border-radius: 40px;
+  box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1);
+
+}
+.flex-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover{
+  box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button1 {
+  border:none;
+  margin-left: 9em;
+  display: inline-block;
+  padding: 25px 26px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #32a3b1;
+  font-size: 20px;
+  background: #ebf5fc;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(255,255,255,1), 4px 4px 15px rgba(0,0,0,0.1);
+}
+
+.button1:hover{
+  box-shadow: inset -4px -4px 10px rgba(255,255,255,0.5), inset 4px 4px 10px rgba(0,0,0,0.1);
+}
+.button2 {
+  border:none;
+  margin-left: 6.5em;
+  display: inline-block;
+  padding: 25px 26px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #32a3b1;
+  font-size: 20px;
+  background: #ebf5fc;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(255,255,255,1), 4px 4px 15px rgba(0,0,0,0.1);
+}
+
+.button2:hover{
+  box-shadow: inset -4px -4px 10px rgba(255,255,255,0.5), inset 4px 4px 10px rgba(0,0,0,0.1);
+}
+p{
+  margin-left: 5em;
+}
+input{
+  margin-left:14em;
 }
